@@ -64,7 +64,6 @@ f = open("banner.txt","r")
 ascii = "".join(f.readlines())
 
 os.system('clear')
-print(colorText(ascii))
 
 
 def conditions () : 
@@ -74,18 +73,19 @@ def conditions () :
         conditions()
     else : 
         if result == "y" :
-            pass
-            return True
-        else : 
             print(colorText("\n[[red]]This script is for educational use ONLY ! "))
             time.sleep(5)
             sys.exit()
+        else : 
+            pass
 
 conditions()
-
+os.system('clear')
+print(colorText(ascii))
 
 # HUB PRINCIPAL
 def lobby():
+    
     d = open("banner-hub.txt","r")
     asciii = "".join(d.readlines())
     print(colorText(asciii))
