@@ -12,11 +12,13 @@ Working perfectly on Kali Linux, if you try to run it on other Linux distrib, yo
 
 ```
 (sudo) apt-get update
+sudo apt install python-pip
+sudo apt install python3-pip 
 git clone https://github.com/Coroxx/TheSmartool
 cd TheSmartool
 sudo chmod +x install.sh
 bash install.sh
-sudo python3 thesmartool.py
+sudo python3 smartool.py
 ```
 
 
