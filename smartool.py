@@ -88,7 +88,6 @@ conditions()
 def lobby():
     d = open("banner-hub.txt","r")
     asciii = "".join(d.readlines())
-    os.system("clear")
     print(colorText(asciii))
     hub = input(colorText("[[cyan]][ 1 ] Information about an ip adress \n[ 2 ] Start Metasploit \n[ 3 ] Password  \n[ 4 ] View Mac Adress \n\n[ 99 ] Exit \n\n[ ? ] Choice : "))
     try :

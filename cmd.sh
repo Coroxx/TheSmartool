@@ -38,8 +38,5 @@ pip install getmac
 echo "Succes"
 pip install getmac
 echo "Succes"
-
-
 clear
 echo "Good, you can run now the script with \"sudo python3 smartool.py\""
-

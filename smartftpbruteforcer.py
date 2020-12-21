@@ -11,7 +11,6 @@ import time
 import sys
 import os
 import whois
-from pythonping import ping
 import string
 from string import punctuation
 import random
