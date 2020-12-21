@@ -196,8 +196,7 @@ time.sleep(2)
 
 
 
-# iterate over passwords one by one
-# if the password is found, break out of the loop
+
 for password in passwords:
     if is_correct(password):
         break
