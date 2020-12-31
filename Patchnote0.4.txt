@@ -1,0 +1,14 @@
+Beta 0.4 :
+
+- Correction de bogues 
+- Correction de traductions
+- Changement majeur du dessin ASCII sur la page principale du Smartool
+
+- Ajout d'un nouvel outil : Le SmartProxyDownloader, il permet d'aller télécharger en quelques secondes des
+proxys très récents (http/socks4/socks5) avec un choix d'anonymat et de type de proxy évidemment. Ces listes
+sont mises à jour plusieurs fois par minute.
+
+- Ajout d'un nouvel outil complémentaire au SmartProxyDownloader, le SmartProxyChecker, il permet de vérifier
+si une liste de proxy est bonne, le script classe automatiquement les résultats dans des fichiers txt afin que 
+l'utilisateur puisse récupérer une liste de proxy 'alive', ou en vie pour les anglophobes. 
+
