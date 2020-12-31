@@ -1,11 +1,11 @@
 #!/bin/bash
 
-sudo apt-get update -y
+sudo apt-get update 
 echo "Succes"
-sudo apt-get install pip -y
+sudo apt-get install pip 
 echo "Succes"
-sudo apt-get install pip3 -y
-echo "Succes"
+sudo apt-get install pip3 
+echo "Success"
 pip install whois
 echo "Succes"
 pip3 install requests
@@ -23,8 +23,6 @@ echo "Succes"
 pip install lxml
 echo "Succes"
 pip install rarfile
-echo "Succes"
-pip install pythongping
 echo "Succes"
 pip install termcolor
 echo "Succes"
