@@ -101,7 +101,8 @@ try :
 except FileNotFoundError :
     print(colorText('[[red]][-] Your file doesn\'t exist ! Please ty again'))
     time.sleep(3)
-    welcome()
+    print(colorText('[[red]][-] Exiting...))
+    sys.exit()
 
 
 host1 = []
@@ -127,7 +128,7 @@ for chain in port2 :
 # Connect to the proxy 
 def ping(host, port, af=socket.AF_INET, sock=socket.SOCK_STREAM):
     ping = socket.socket(af, sock)
-    socket.setdefaulttimeout(x)
+    socket.setdefaulttimeout(int(x))
     try:
         ping.connect ((host, port))
     except ConnectionRefusedError:
