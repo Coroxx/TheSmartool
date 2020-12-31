@@ -177,6 +177,12 @@ timee()
 
 mauvais = 0
 bon = 0
+tott = 0
+
+unquart = longueur // 4 
+deuxquart = unquart * 2
+troisquart = unquart * 3
+
 
 # Loop to check all proxies. 
 for i in range(longueur) :
@@ -187,6 +193,15 @@ for i in range(longueur) :
             fichier.write(chaine)
             fichier.close()
             bon += 1 # Count of 'Working !'
+            tott += 1
+            if tott == unquart : 
+                print(colorText('[[lightgreen]]\nTotal check : 25 % !'))
+            elif tott == deuxquart :
+                print(colorText('[[lightgreen]]\nTotal check : 50 % !'))
+            elif tott == troisquart : 
+                print(colorText('[[lightgreen]]\nTotal check : 75 % !'))
+            else : 
+                pass
         else : 
             print(colorText('[[red]]\n\n|IP : {}\n|Port : {}\n|Status : Not working (or very slow) !').format(host1[i], port3[i]))
             fichier = open('Results/notworking.txt', 'a')
@@ -194,6 +209,15 @@ for i in range(longueur) :
             fichier.write(chaine)
             fichier.close()
             mauvais += 1 # Count of 'Not working'
+            tott += 1
+            if tott == unquart : 
+                print(colorText('[[lightgreen]]\nTotal check : 25 % !'))
+            elif tott == deuxquart :
+                print(colorText('[[lightgreen]]\nTotal check : 50 % !'))
+            elif tott == troisquart : 
+                print(colorText('[[lightgreen]]\nTotal check : 75 % !'))
+            else : 
+                pass
         
 
 
