@@ -124,15 +124,10 @@ for i in range(longueur - 1) :
         result = '[[white]]' + '[' + currentime + ']' + '[[lightgreen]]' + '[' + 'DEBUG : RESULT' + ']' + '[[lightgreen]]' + ':'+  '[[lightgreen]]' + ' Pannel found ! : ' + url
         print(colorText(result))
         resultt.append(url)
-    except (requests.HTTPError, urllib.error.HTTPError, socket.timeout, requests.exceptions.ReadTimeout, urllib3.exceptions.ReadTimeoutError, socket.gaierror, urllib3.exceptions.NewConnectionError, requests.exceptions.ConnectionError, socket.gaierror, urllib3.exceptions.NewConnectionError) :
+    except (requests.HTTPError, urllib.error.HTTPError, socket.timeout, requests.exceptions.ReadTimeout, urllib3.exceptions.ReadTimeoutError, socket.gaierror) :
         now = datetime.now()
         currentime = now.strftime("%H:%M:%S")
         result = '[[white]]' + '[' + currentime + ']' + '[[lightgreen]]' + '[' + 'DEBUG : INFO' + ']' + '[[red]]' + ':'+ ' Fail... : ' + url
-        print(colorText(result))
-    except (urllib3.exceptions.MaxRetryError) : 
-        now = datetime.now()
-        currentime = now.strftime("%H:%M:%S")
-        result = '[[white]]' + '[' + currentime + ']' + '[[lightgreen]]' + '[' + 'DEBUG : ERROR' + ']' + '[[red]]' + ':'+ 'The domain seems to be bad'
         print(colorText(result))
 
 
