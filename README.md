@@ -22,7 +22,7 @@ sudo python3 smartool.py
 ```
 
 
-![alt text](https://i.ibb.co/hcJL5Cm/image-2021-01-01-012106.png)
+![alt text](https://i.ibb.co/8j2mQQc/image-2021-01-01-012214.png)
 
 **This project is currently on a Beta 🐉 version, it includes an update checker, when you launch it you get this message :**
 
