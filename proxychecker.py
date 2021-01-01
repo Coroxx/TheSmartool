@@ -101,7 +101,7 @@ try :
 except FileNotFoundError :
     print(colorText('[[red]][-] Your file doesn\'t exist ! Please ty again'))
     time.sleep(3)
-    print(colorText('[[red]][-] Exiting...))
+    print(colorText('[[red]][-] Exiting...'))
     sys.exit()
 
 
