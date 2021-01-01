@@ -37,9 +37,33 @@ sudo python3 smartool.py
 
 - SSH Password Bruteforcer 
 - FTP Password Bruteforcer
+- FreshProxyDownloader
+- ProxyChecker
+- AdminPageFinder
 
+*Password menu :*
 ![alt text](https://i.ibb.co/Pj0fN3k/image-2020-12-21-144457.png)
 
 
+*Admin Page Finder :* 
+![alt text](https://i.ibb.co/W3Tq3tz/image-2021-01-01-013528.png) 
+```
+Find fast the potential admin login page of a website !
+```
+
+*Proxy Downloader :*
+![alt text](https://i.ibb.co/41c5HQh/image-2021-01-01-013008.png)
+```
+Download easily the last proxy from the web
+```
+
+*Proxy Checker :* 
+![alt text](https://i.ibb.co/q5GjBgP/image-2021-01-01-013230.png) 
+```
+Keep the fast and alive proxy and make a clean proxy list ! 
+```
+
+
 *A lot of new features are coming soon ⏰ !* 
-*Do not hesitate to make a new issue when you discover a bug, I would be glad to patch it :D*
+*Do not hesitate to make a new issue when you discover a bug, I would be glad to patch it :D
+Contact : Corox#0666*
