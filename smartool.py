@@ -169,7 +169,7 @@ def lobby1() :
     a = open("Banner/ipbanner.txt","r")
     asciiii = "".join(a.readlines())
     print(colorText(asciiii))
-    hub1 = input(colorText("[[cyan]][ 1 ] Expiration / Create date (Domain) \n[ 2 ] Domain alive ? \n[ 3 ] Ping an IP / Domain (ms) \n[ 4 ] What is my ip adress ?  \n[ 5 ] Back \n\n[ ? ] Choice : \n"))
+    hub1 = input(colorText("[[cyan]][ 1 ] Expiration / Create date (Domain) \n[ 2 ] Domain alive ? \n[ 3 ] Ping an IP / Domain (ms) \n[ 4 ] What is my ip adress ?  \n[ 5 ] Back \n\n[ ? ] Choice : "))
     try :
         val1 = int(hub1)
     except ValueError :
