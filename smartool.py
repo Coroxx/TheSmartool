@@ -180,6 +180,15 @@ def lobby1() :
         lobby1()
     if val1 == 1 : 
         target = input("Website domain (ex google.com) : ")
+        if 'https'in target :
+            print(colorText('[[red]]\n[-] Wrong format ! (Correct format : xxxxx.fr'))
+            lobby1()
+        elif 'http' in target : 
+            print(colorText('[[red]]\n[-] Wrong format ! (Correct format : xxxxx.fr'))
+            lobby1()
+        elif '/' in target : 
+            print(colorText('[[red]]\n[-] Wrong format ! (Correct format : xxxxx.fr'))
+            lobby1()
         domain = whois.query(target)
         print (colorText("[[green]][+] Domain expire date :"), domain.expiration_date)
         print (colorText("[[green]][+] Domain creation date :"), domain.creation_date)
