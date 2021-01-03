@@ -195,4 +195,6 @@ elif result < 1800 :
 print(colorText("\n[[green]]Reading password file.\nReading password file..\nReading password file...\n\n[+] Done !\n\n[!] Script have to try "), len(passwords), "passwords",(colorText("[[yellow]]\n\nApproximate time to finish this list : ")), result,hourr,result1 ,"minutes\n\n" )
 time.sleep(2)
 
-
+for password in passwords:
+    if is_correct(password):
+        break
