@@ -4,6 +4,10 @@
 **The Smartool tool is a hacking script developed by me, your hacking courses will be easier ! 🦩**
 **All this in python!  🩸**
 
+/!\
+***Education only ! Do not missue this tool***
+/!\
+
 *All the tools who are used (ftp cracker, ssh cracker etc...) were written by me except Metasploit obviously.*
 
 **How to install !**
