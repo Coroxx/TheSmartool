@@ -70,6 +70,18 @@ Download easily the last proxy from the web
 Keep the fast and alive proxy and make a clean proxy list ! 
 ```
 
+*FTP BruteForcer :* 
+![alt text](https://i.ibb.co/qJ9GsP7/image-2021-01-07-100003.png)
+```
+Bruteforcer for FTP servers
+```
+
+*SSH BruteForcer :* 
+![alt text](https://i.ibb.co/sWyCKGq/image-2021-01-07-100225.png)
+```
+Bruteforcer for SSH session password
+```
+
 
 *A lot of new features are coming soon ⏰ !* 
 *Do not hesitate to make a new issue when you discover a bug, I would be glad to patch it :D
