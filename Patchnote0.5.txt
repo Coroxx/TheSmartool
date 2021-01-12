@@ -1,4 +1,4 @@
-Beta 0.4 :
+Beta 0.5 :
 
 - Correction de bogues 
 - Correction de traductions
@@ -12,3 +12,5 @@ sont mises à jour plusieurs fois par minute.
 si une liste de proxy est bonne, le script classe automatiquement les résultats dans des fichiers txt afin que 
 l'utilisateur puisse récupérer une liste de proxy 'alive', ou en vie pour les anglophobes. 
 
+- Ajout d'un nouvel outil, l'AdminPageFinder qui vous permet de pouvoir facilement trouver la page admin d'un 
+site web, cet outil peut aussi être utilisé afin de sécuriser votre site web ! 
