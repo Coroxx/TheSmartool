@@ -1,0 +1,15 @@
+whois
+requests
+bs4
+nltk
+htmlparser
+lxml
+rarfile
+termcolor
+paramiko
+spur
+proxy-checker
+getmac
+wget
+progressbar==2.2
+
