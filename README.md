@@ -17,6 +17,7 @@ Working perfectly on Kali Linux, if you try to run it on other Linux distrib, yo
 (sudo) apt-get update
 sudo apt install python-pip
 sudo apt install python3-pip 
+sudo apt install telnet -y 
 git clone https://github.com/Coroxx/TheSmartool
 cd TheSmartool
 sudo chmod +x install.sh
