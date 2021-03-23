@@ -20,8 +20,7 @@ sudo apt install python3-pip
 sudo apt install telnet -y 
 git clone https://github.com/Coroxx/TheSmartool
 cd TheSmartool
-sudo chmod +x install.sh
-bash install.sh
+pip install -r requirements.txt
 sudo python3 smartool.py
 ```
 
