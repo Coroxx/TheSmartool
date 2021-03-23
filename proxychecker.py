@@ -1,4 +1,5 @@
 # All the imports : 
+#coding: utf-8
 
 import socket 
 import requests
