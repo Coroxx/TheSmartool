@@ -1,4 +1,5 @@
 # Programme développé par Corox, début du projet le 28/11.
+#coding: utf-8
 
 # Tous les imports : 
 import requests
