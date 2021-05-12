@@ -22,6 +22,7 @@ sudo apt install telnet -y
 **For MacOs**
 
 python3 -m pip install -r requirements.txt
+brew install telnet
 
 
 git clone https://github.com/Coroxx/TheSmartool
