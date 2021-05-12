@@ -18,6 +18,12 @@ Working perfectly on Kali Linux, if you try to run it on other Linux distrib, yo
 sudo apt install python-pip
 sudo apt install python3-pip 
 sudo apt install telnet -y 
+
+**For MacOs**
+
+python3 -m pip install -r requirements.txt
+
+
 git clone https://github.com/Coroxx/TheSmartool
 cd TheSmartool
 pip install -r requirements.txt
