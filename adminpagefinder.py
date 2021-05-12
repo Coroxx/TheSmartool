@@ -99,6 +99,8 @@ def hub() :
     result = '[[white]]' + '[' + currentime + ']' + '[[lightgreen]]' + '[' + 'DEBUG : INFO' + ']' + '[[lightyellow]]' + ':'+ '[[lightyellow]]'+ ' Starting...\n '
     print(colorText(result))
     time.sleep(1)
+    print(colorText('[[red]]\n[!] If the site requires a user login, the scan may fail\n'))
+    time.sleep(1)
 
 hub()
 
