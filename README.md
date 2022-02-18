@@ -93,4 +93,4 @@ Bruteforcer for SSH session password
 
 *A lot of new features are coming soon ⏰ !* 
 *Do not hesitate to make a new issue when you discover a bug, I would be glad to patch it :D
-Contact : Corox#0666*
+Contact : Corox#2729*
